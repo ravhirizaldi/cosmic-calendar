@@ -81,5 +81,6 @@ export default defineConfig({
         }
       }
     }
-  }
+  },
+  base: '/cosmic-calendar/'
 })
