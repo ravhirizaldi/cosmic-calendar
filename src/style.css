@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-space-800;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-space-700 hover:bg-space-600 rounded;
+}
+
+body {
+  cursor: default;
+}
